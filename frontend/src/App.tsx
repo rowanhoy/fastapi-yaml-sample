@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import yaml from 'js-yaml';
 
 interface YamlData {
-  // Add your YAML data structure here
-  [key: string]: any;
+  message: string;
 }
 
 function App() {
